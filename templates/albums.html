@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container text-center">
+
+    <div class="row g-3">
+        {% for name in album_info %}
+        <div class="col">
+            <!--            {{ name['artist'] }}-->
+            <img src="{{ name['artwork'] }}" alt="">
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
+
+<div class="box">
+    <div>
+        <a href="add-albums">
+            <button type="button" class="btn btn-primary">Add Albums</button>
+        </a>
+    </div>
+
+</div>
+
+{% endblock %}

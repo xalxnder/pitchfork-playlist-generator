@@ -1,1 +1,1 @@
-# pitchfork-playlist-generator
+# pitchfork-playlist-creator
